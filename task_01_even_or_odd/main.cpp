@@ -1,10 +1,17 @@
 
 #include <iostream>
+using namespace std;
+
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    long long n;
-    if (!(std::cin >> n)) return 0;
-    // TODO: print "even" or "odd"
+    int n;
+    cout << "Zadaj n";
+    cin >> n;
+
+    if (n % 2 == 0) {
+        cout << "cislo je parne";
+    } else {
+        cout << "cislo ne neparne";
+    }
+
     return 0;
 }
