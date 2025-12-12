@@ -1,10 +1,17 @@
 
 #include <iostream>
+using namespace std;
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    long long y;
-    if (!(std::cin >> y)) return 0;
+    int rok;
+    cout << " zadaj rok " << endl;
+    cin >> rok;
+
+    if (rok % 4 == 0) {
+        cout << " rok je priestupny ";
+    } else {
+        cout << " rok nie je priestupny ";
+    }
+
     // TODO: implement leap rule and print YES/NO
     return 0;
 }

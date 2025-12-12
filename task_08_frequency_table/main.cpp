@@ -1,11 +1,26 @@
 
 #include <iostream>
 #include <vector>
+using namespace std;
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    int n; 
-    if (!(std::cin >> n)) return 0;
+    int n, pocet[100] = {0};
+    cout << " nacitaj pocet cisel" << endl;
+    cin >> n;
+
+    cout << " nacitaj cisla v rozsahu od 0 do 100 " << endl;
+    for (int i = 0; i < n; i++) {
+        int hodnota;
+        cin >> hodnota;
+        if (hodnota >= 0 && hodnota <= 100) {
+            pocet[hodnota]++;
+        }
+    }
+    cout << " pocet cisel s rovnakou hodnotou" << endl;
+    for (int hodnota = 0; hodnota <= 100; hodnota++) {
+        if (pocet[hodnota] > 0)
+            cout << hodnota << " " << pocet[hodnota] << endl;
+    }
+
     // TODO: read n values in [0,100], count, and print only those with count>0 in ascending value
     return 0;
 }
