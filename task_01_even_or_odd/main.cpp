@@ -10,7 +10,7 @@ int main() {
     if (n % 2 == 0) {
         cout << "cislo je parne";
     } else {
-        cout << "cislo ne neparne";
+        cout << "cislo je neparne";
     }
 
     return 0;

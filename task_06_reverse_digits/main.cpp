@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+
 int main() {
 
     long long n = 0;
@@ -14,6 +15,8 @@ int main() {
         while (n % 10 == 0 && n);
 
     } while (n > 0);
+
+    // TODO: reverse using % and /, not strings
 
     return 0;
 }
