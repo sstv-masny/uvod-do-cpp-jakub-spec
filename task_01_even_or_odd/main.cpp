@@ -4,13 +4,13 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Zadaj n";
+    cout << " zadaj n ";
     cin >> n;
 
     if (n % 2 == 0) {
         cout << "cislo je parne";
     } else {
-        cout << "cislo ne neparne";
+        cout << "cislo je neparne";
     }
 
     return 0;
