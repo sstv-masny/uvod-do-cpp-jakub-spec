@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 int main() {
-    int n, pocet[100] = {0};
+    int n, pocet[101] = {0};
     cout << " nacitaj pocet cisel" << endl;
     cin >> n;
 

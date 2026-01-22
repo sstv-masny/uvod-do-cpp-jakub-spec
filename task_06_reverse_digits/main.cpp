@@ -9,9 +9,8 @@ int main() {
     cin >> n;
     do {
         cout << n % 10;
-        do
-            n /= 10;
-        while (n % 10 == 0 && n);
+
+        n /= 10;
 
     } while (n > 0);
 

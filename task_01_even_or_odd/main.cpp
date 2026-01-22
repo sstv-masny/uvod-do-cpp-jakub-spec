@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Zadaj n";
+    cout << " zadaj n ";
     cin >> n;
 
     if (n % 2 == 0) {

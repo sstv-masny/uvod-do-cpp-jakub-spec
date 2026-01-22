@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    long long km, suma = 0;
+    float km, suma = 0;
 
     cout << " zadaj kilometre " << endl;
     cin >> km;
